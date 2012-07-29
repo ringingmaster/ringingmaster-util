@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ringingmaster-util" basedir="." default="ivy-retrieve">
+	
+
+    <!-- load the local ivy targets (ivysettings.dir will be different for teamcity and DAM builds) -->
+    <property name="ivysettings.dir" value="../common/ivysettings-local"/>
+    <property name="ivylib.dir" value="lib"/>
+    <property name="ivylib-sources.dir" value="lib-sources"/>
+    <property name="ivylib.confs" value="lib"/>
+    <property name="ivytestlib.dir" value="testlib"/>
+    <import file="${ivysettings.dir}/ivy-targets.xml"/>
+
+</project>
