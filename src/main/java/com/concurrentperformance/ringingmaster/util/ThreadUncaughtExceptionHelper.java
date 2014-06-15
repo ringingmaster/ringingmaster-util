@@ -1,9 +1,9 @@
 package com.concurrentperformance.ringingmaster.util;
 
-import java.lang.Thread.UncaughtExceptionHandler;
-
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+
+import java.lang.Thread.UncaughtExceptionHandler;
 
 //TODO move do a different module.
 
@@ -14,13 +14,13 @@ import org.apache.commons.logging.LogFactory;
  */
 public class ThreadUncaughtExceptionHelper {
 
-	private static final Log log = LogFactory.getLog(LogginUncaughtExceptionHandler.class);
+	private static final Log log = LogFactory.getLog(LoggingUncaughtExceptionHandler.class);
 	
 	public static void setLoggingDefaultUncaughtException() {
-		Thread.setDefaultUncaughtExceptionHandler(new LogginUncaughtExceptionHandler());
+		Thread.setDefaultUncaughtExceptionHandler(new LoggingUncaughtExceptionHandler());
 	}
 	
-	private static class LogginUncaughtExceptionHandler implements UncaughtExceptionHandler {
+	private static class LoggingUncaughtExceptionHandler implements UncaughtExceptionHandler {
 
 		@Override
 		public void uncaughtException(Thread thread, Throwable e) {
