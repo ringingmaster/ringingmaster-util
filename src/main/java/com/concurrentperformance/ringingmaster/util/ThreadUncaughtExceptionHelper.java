@@ -1,7 +1,7 @@
 package com.concurrentperformance.ringingmaster.util;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.lang.Thread.UncaughtExceptionHandler;
 
@@ -14,7 +14,7 @@ import java.lang.Thread.UncaughtExceptionHandler;
  */
 public class ThreadUncaughtExceptionHelper {
 
-	private static final Log log = LogFactory.getLog(LoggingUncaughtExceptionHandler.class);
+	private static final Logger log = LoggerFactory.getLogger(ThreadUncaughtExceptionHelper.class);
 	
 	public static void setLoggingDefaultUncaughtException() {
 		Thread.setDefaultUncaughtExceptionHandler(new LoggingUncaughtExceptionHandler());
