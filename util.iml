@@ -19,8 +19,8 @@
     <orderEntry type="module-library">
       <library name="IvyIDEA-util-lib">
         <CLASSES>
-          <root url="jar://$IVY_CACHE_HOME$/log4j/log4j/jars/log4j-1.2.16.jar!/" />
-          <root url="jar://$IVY_CACHE_HOME$/org.slf4j/slf4j-api/jars/slf4j-api-1.7.5.jar!/" />
+          <root url="jar://$IVY_CACHE_HOME$/cache/log4j/log4j/jars/log4j-1.2.16.jar!/" />
+          <root url="jar://$IVY_CACHE_HOME$/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.5.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
