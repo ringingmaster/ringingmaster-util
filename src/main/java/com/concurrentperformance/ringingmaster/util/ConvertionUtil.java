@@ -19,4 +19,3 @@ public class ConvertionUtil {
 		return result;
 	}
 }
-
