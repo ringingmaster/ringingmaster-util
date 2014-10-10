@@ -1,4 +1,4 @@
-package com.concurrentperformance.ringingmaster.util;
+package com.concurrentperformance.util.conversion;
 
 
 import java.util.Collection;

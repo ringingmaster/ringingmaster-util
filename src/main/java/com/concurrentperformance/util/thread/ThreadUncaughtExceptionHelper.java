@@ -1,4 +1,4 @@
-package com.concurrentperformance.ringingmaster.util;
+package com.concurrentperformance.util.thread;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
