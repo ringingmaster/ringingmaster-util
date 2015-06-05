@@ -21,7 +21,7 @@ public class ConcurrentListenable<T> implements Listenable<T> {
 		checkState(added);
 	}
 
-	protected Set<T> getListeners() {
+	public Set<T> getListeners() {
 		return listeners;
 	}
 
