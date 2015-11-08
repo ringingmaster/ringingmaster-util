@@ -14,9 +14,12 @@
 
     <dependencies>
 
+        <!-- General -->
         <dependency org="com.google.guava" name="guava" rev="18.0"/>
 
-        <dependency org="org.slf4j" name="slf4j-api" rev="1.7.5"/>
+        <!-- Logging -->
+        <dependency org="org.slf4j" name="slf4j-api" rev="1.7.12"/>
+
     </dependencies>
 
 </ivy-module>
