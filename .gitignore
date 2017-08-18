@@ -1,6 +1,7 @@
+.gradle
 out
 build
 .idea
-.gradle
 gradlew*
 gradle
+*.iml
