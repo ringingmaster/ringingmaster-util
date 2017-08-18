@@ -1,6 +1,7 @@
 apply plugin: 'java'
 
-version = '1.0.0'
+group 'com.concurrentperformance.ringingmaster'
+version '1.0.0'
 
 compileJava {
     sourceCompatibility = 1.8
