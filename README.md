@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ringingmaster/ringingmaster-util.svg?branch=master)](https://travis-ci.org/ringingmaster/ringingmaster-util)
+
 # ringingmaster-util
 
 
