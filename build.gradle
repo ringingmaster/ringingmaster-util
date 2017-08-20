@@ -1,6 +1,6 @@
 apply plugin: 'java'
 
-group 'com.concurrentperformance.ringingmaster'
+group 'org.ringingmaster'
 version '1.0.0'
 
 compileJava {
