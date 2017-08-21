@@ -14,10 +14,10 @@ repositories {
 
 dependencies {
     // General
-    compile 'com.google.guava:guava:19.0'
+    compile 'com.google.guava:guava:23.0'
 
     // Logging
-    compile 'org.slf4j:slf4j-api:1.7.21'
+    compile 'org.slf4j:slf4j-api:1.7.25'
 }
 
 jar {
