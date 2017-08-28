@@ -626,7 +626,7 @@ public class SmartCompare {
 
         public String toString() {
             StringBuilder b = new StringBuilder(fullFieldPath);
-            b.append("->").append(description);
+            b.append(description);
             return b.toString();
         }
 
