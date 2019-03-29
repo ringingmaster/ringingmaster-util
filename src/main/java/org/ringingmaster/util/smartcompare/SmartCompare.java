@@ -180,7 +180,7 @@ public class SmartCompare {
             Iterator<Difference> i = differences.iterator();
             while( i.hasNext()) {
                 String difference = i.next().toString();
-                s.append(i.hasNext() ? difference + "\n" : difference);
+                s.append(i.hasNext() ? difference + "\n  " : difference);
             }
         } catch (IOException e) {
             e.printStackTrace();
