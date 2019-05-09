@@ -6,7 +6,7 @@ import java.util.Collection;
 /**
  * Helper class to perform various data type conversion
  *
- * @author Stephen Lake
+ * @author Steve Lake
  */
 public class ConvertionUtil {
 

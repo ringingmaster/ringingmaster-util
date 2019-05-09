@@ -3,7 +3,7 @@ package org.ringingmaster.util.beanfactory;
 /**
  * Generic factory - to be implemented by whatever DI framework is being used.
  *
- * @author Lake
+ * @author Steve Lake
  */
 public interface BeanFactory {
 

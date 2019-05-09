@@ -3,7 +3,7 @@ package org.ringingmaster.util.listener;
 /**
  * TODO comments ???
  *
- * @author Lake
+ * @author Steve Lake
  */
 public interface Listenable<T> {
 	void addListener(T listener);

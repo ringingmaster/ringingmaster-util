@@ -10,7 +10,7 @@ import java.lang.Thread.UncaughtExceptionHandler;
 /**
  * Last resort exception handler.
  * 
- * @author Stephen Lake
+ * @author Steve Lake
  */
 public class ThreadUncaughtExceptionHelper {
 
